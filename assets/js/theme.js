@@ -397,3 +397,31 @@
         }
     });
 })(jQuery);
+// Get references to the button and popup content
+const popupButton = document.getElementById('popupButton');
+const popupContent = document.getElementById('popupContent');
+const closeButton = document.getElementById('closeButton');
+
+// Toggle popup visibility when the button is clicked
+function togglePopup() {
+    popupContent.classList.toggle('showpopup');
+    // if (popupContent.style.display === 'block') {
+    //     popupContent.style.display = 'none';
+    // } else {
+    //     popupContent.style.display = 'block';
+    // } 
+}
+    
+
+
+// Close the popup when the close button is clicked
+// closeButton.addEventListener('click', () => {
+//     popupContent.style.display = 'none';
+// });
+
+// Close the popup when clicking outside of it
+// window.addEventListener('click', (event) => {
+//     if (event.target !== popupButton && event.target !== popupContent && !popupContent.contains(event.target)) {
+//         popupContent.style.display = 'none';
+//     }
+// });

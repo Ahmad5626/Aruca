@@ -1961,7 +1961,7 @@ h6 {
 
 .topbar__right>a>i {
   font-size: 14px;
-  color: white;
+  color:#1e3a50;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
   margin-right: 10px;
@@ -16181,4 +16181,85 @@ Cta Two
   left: 0;
   background: rgb(7,145,54);
   background: linear-gradient(90deg, rgba(7,145,54,0.7456232492997199) 0%, rgba(7,145,54,0.333858543417367) 35%, rgba(0,0,0,0.15458683473389356) 100%);
+}
+
+/* popup Button */
+
+.popup-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.popup-button:hover {
+    background-color: #0056b3;
+}
+
+/* Popup Content */
+.popup-content {
+    position: fixed;
+    bottom: 90px;
+    right: 20px;
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    z-index: 1000;
+}
+.showpopup{
+  display: block;
+}
+
+.popup-header {
+    padding: 15px;
+    background-color: #007bff;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popup-header h3 {
+    margin: 0;
+}
+
+.close-button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.popup-body {
+    padding: 15px;
+}
+
+.icons {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.icons i {
+    font-size: 24px;
+    color: #007bff;
+    cursor: pointer;
+}
+
+.icons i:hover {
+    color: #0056b3;
 }
