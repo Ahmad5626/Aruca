@@ -2974,6 +2974,7 @@ h6 {
   font-size: 54px;
   font-weight: 700;
   margin-top: 5px;
+  margin-bottom: 18px;
   letter-spacing: .5px;
 }
 
@@ -4319,6 +4320,8 @@ h6 {
   position: absolute;
   bottom: 0;
   left: 35px;
+  width: 80px;
+  height: 80px;
 }
 
 .testimonials-one__box-main .testimonials-one__box-info {
@@ -4331,6 +4334,9 @@ h6 {
 
 .testimonials-one__box-info>img {
   border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .testimonials-one__box h3 {
@@ -6461,14 +6467,15 @@ h6 {
 
 .service-details__content>h3 {
   margin: 0;
-  color: var(--thm-black);
+  color: #079437;
   font-size: 34px;
   margin-top: 30px;
   margin-bottom: 15px;
 }
 
 .service-details__content h4 {
-  color: var(--thm-black);
+  /* color: var(--thm-black); */
+  color: #079437;
   font-size: 28px;
   margin: 0;
   margin-top: 20px;
@@ -16268,3 +16275,10 @@ Cta Two
 .icons i:hover {
     color: #0056b3;
 }
+.service-details b{
+  color: #079437;
+  font-size: 19px;
+}
+/* .service-details br{
+  margin-top: 10px !important;
+} */
