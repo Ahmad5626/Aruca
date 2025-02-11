@@ -4914,7 +4914,7 @@ h6 {
 }
 
 .trusted-company .block-title p {
-  color: #b0c2d7;
+  color: white;
 }
 
 .trusted-company .block-title h2 {
@@ -4998,11 +4998,11 @@ h6 {
 
 .trusted-company__list-item {
   margin-bottom: 5px;
-  color: #b0c2d7;
+  color: white;
 }
 
 .trusted-company__list-item i {
-  color: #203c52;
+  color: white;
   font-size: 15px;
 }
 
