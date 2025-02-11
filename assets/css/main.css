@@ -16322,3 +16322,10 @@ Cta Two
   margin-left: 25px;
   color: #242627;
 } 
+.site-footer,.bottom-footer{
+  max-width: 1300px;
+  margin: 0px auto;
+}
+.logo-box img{
+  background-color: white;
+}
