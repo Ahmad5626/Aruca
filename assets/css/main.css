@@ -2624,6 +2624,8 @@ h6 {
 .main-slider {
   overflow: hidden;
   position: relative;
+  max-width: 1300px;
+  margin: 0px auto;
 }
 
 .main-slider .swiper-slide {
@@ -3687,7 +3689,7 @@ h6 {
 
 .footer-widget__about-phone>i {
   font-size: 38px;
-  color: var(--thm-base);
+  color: white;
 }
 
 .footer-widget__about-phone-content {
@@ -3809,7 +3811,7 @@ h6 {
   position: absolute;
   top: 6px;
   font-size: 14px;
-  color: var(--thm-base);
+  color: white;
   left: 0;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
@@ -4893,6 +4895,8 @@ h6 {
   background-color: #0c2139;
   position: relative;
   padding: 100px 0;
+  max-width: 1300px;
+  margin: 0px auto;
 }
 
 .trusted-company__bg {
@@ -5033,13 +5037,13 @@ h6 {
 .trusted-company__box-wrap {
   position: relative;
   margin-left: 30px;
-  margin-top: -70px;
+  margin-top: 0px;
   z-index: 1;
 }
 
 .trusted-company__box-wrap:before {
   content: "";
-  width: 10000px;
+  width: 650px;
   height: calc(100% + 150px);
   position: absolute;
   left: -40px;
@@ -16285,10 +16289,10 @@ Cta Two
 
 .right-sidebar{
   position: fixed;
-  width: 70px;
+  width: 80px;
   background: white;
   z-index: 8888;
-  top: 50%;
+  top: 40%;
   right: 0;
   transform: translateY(-50%);
   border-radius: 10px 0 0 10px;
@@ -16304,7 +16308,7 @@ Cta Two
   padding: 5px 0px;
 }
 .right-sidebar-1 p{
-  font-size: 10px;
+  font-size: 11px;
   padding: 0px;
   margin: 0px;
 }
