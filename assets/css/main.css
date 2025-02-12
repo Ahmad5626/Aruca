@@ -2626,6 +2626,7 @@ h6 {
   position: relative;
   max-width: 1300px;
   margin: 0px auto;
+  height: 580px;
 }
 
 .main-slider .swiper-slide {
@@ -3705,6 +3706,7 @@ h6 {
   line-height: 1;
   letter-spacing: 0.1em;
   margin-bottom: 7px;
+  font-family: var(--thm-font);
 }
 
 .footer-widget__about-phone-content h3 {
@@ -3719,6 +3721,7 @@ h6 {
   color: inherit;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  font-family: var(--thm-font);
 }
 
 .footer-widget__about-phone-content h3 a:hover {
@@ -3936,8 +3939,9 @@ h6 {
 
 .bottom-footer p {
   font-size: 16px;
-  color: var(--thm-text-dark);
+  color: white;
   margin: 0;
+  font-family: var(--thm-font);
 }
 
 @media (max-width: 667px) {
@@ -4237,8 +4241,8 @@ h6 {
 # Testimonials
 --------------------------------------------------------------*/
 .testimonials-one {
-  padding-top: 90px;
-  padding-bottom: 50px;
+  padding-top: 50px;
+  padding-bottom: 30px;
   background-color: #eff2f6;
   background-image: url(../images/shapes/testimonials-map-1-1.png);
   background-position: top center;
@@ -5384,7 +5388,7 @@ h6 {
   line-height: 30px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
-  cursor: pointer;
+  /* cursor: pointer; */
   position: relative;
   z-index: 10;
 }
@@ -5559,7 +5563,7 @@ h6 {
 # Services
 --------------------------------------------------------------*/
 .service-one {
-  padding-top: 100px;
+  padding-top: 30px;
   margin-bottom: -253px;
   position: relative;
   z-index: 10;
@@ -16328,4 +16332,10 @@ Cta Two
 }
 .logo-box img{
   background-color: white;
+}
+.feature-one{
+  padding-bottom: 30px !important;
+}
+.blog-home{
+  padding-top: 40px;
 }
