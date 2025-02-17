@@ -16432,3 +16432,6 @@ left:unset;
   opacity: 0.3;
   pointer-events: none;
 }
+.about-faq{
+  padding-top: 10px !important;
+}
