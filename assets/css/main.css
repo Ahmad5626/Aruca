@@ -16434,4 +16434,8 @@ left:unset;
 }
 .about-faq{
   padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+.my-tab{
+  padding: 30px;
 }
