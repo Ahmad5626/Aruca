@@ -2626,7 +2626,7 @@ h6 {
   position: relative;
   max-width: 1300px;
   margin: 0px auto;
-  height: 520px;
+  height: 500px;
 }
 
 .main-slider .swiper-slide {
@@ -2652,7 +2652,7 @@ h6 {
 }
 
 .main-slider .swiper-slide .container {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 274px;
 }
 
@@ -2961,8 +2961,8 @@ h6 {
 .page-header .container {
   position: relative;
   z-index: 10;
-  padding-top: 90px;
-  padding-bottom: 95px;
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 
 @media (max-width: 480px) {
@@ -2976,7 +2976,7 @@ h6 {
   margin: 0;
   line-height: 1;
   color: #fff;
-  font-size: 54px;
+  font-size: 36px;
   font-weight: 700;
   margin-top: 5px;
   margin-bottom: 18px;
@@ -16439,3 +16439,14 @@ left:unset;
 .my-tab{
   padding: 30px;
 }
+.tab-pane  {
+  margin-bottom: 40px;
+}
+/* .page-wrapper .stricky-header{
+  position:  relative !important;
+}  */
+  .about-wrapper{
+    position: sticky;
+    top: 0px;
+    /* height: 400px; */
+  }
