@@ -6438,7 +6438,7 @@ h6 {
 
 .service-details {
   background-color: #fff;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 
@@ -16468,4 +16468,17 @@ left:unset;
    }
    .tab-pane .service-one__image .post-thumbnail:before{
     position: relative;
+   }
+   .feature-loan{
+    padding-top: 30px !important;
+   }
+   .feature-loan .feature-one__box::before{
+    background-color: transparent !important;
+    display: none !important;
+   }
+   .feature-loan   .feature-one__box {
+    justify-content: space-between !important;
+   }
+   .feature-loan .feature-one__box:hover{
+    background-color: white;
    }
