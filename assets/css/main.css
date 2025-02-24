@@ -2974,7 +2974,7 @@ h6 {
 
 .page-header .container h2 {
   margin: 0;
-  line-height: 1;
+  line-height: 1.5;
   color: #fff;
   font-size: 36px;
   font-weight: 700;
@@ -16501,7 +16501,7 @@ left:unset;
     }
     .home-loan-img{
       position: absolute;
-      width: 475px;
+      width: 550px;
       top: 0px;
       right: 0px;
      }
