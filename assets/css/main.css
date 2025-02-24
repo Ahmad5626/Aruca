@@ -2962,7 +2962,7 @@ h6 {
   position: relative;
   z-index: 10;
   padding-top: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 120px;
 }
 
 @media (max-width: 480px) {
@@ -16501,7 +16501,7 @@ left:unset;
     }
     .home-loan-img{
       position: absolute;
-      width: 550px;
+      width: 670px;
       top: 0px;
       right: 0px;
      }
@@ -16521,6 +16521,6 @@ left:unset;
     background-color: #079136;
    }
    .car-loan-img{
-    width: 589px;
+    width:700px;
 
    }
