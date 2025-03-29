@@ -16206,7 +16206,7 @@ Cta Two
   top: 0;
   left: 0;
   background: rgb(7,145,54);
-  background: linear-gradient(90deg, rgba(7,145,54,0.38707983193277307) 0%, rgba(7,145,54,0.2862394957983193) 35%, rgba(0,0,0,0.15458683473389356) 100%);
+  background: linear-gradient(90deg, rgba(7, 145, 54, 0.38707983193277307) 0%, rgba(7, 145, 54, 0.2862394957983193) 35%, rgba(0, 0, 0, 0.15458683473389356) 100%);
 }
 
 /* popup Button */
