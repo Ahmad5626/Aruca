@@ -2626,7 +2626,7 @@ h6 {
   position: relative;
   max-width: 1300px;
   margin: 0px auto;
-  height: 500px;
+  height: 460px;
 }
 
 .main-slider .swiper-slide {
@@ -2769,7 +2769,7 @@ h6 {
 }
 
 .main-slider__nav {
-  width: 100%;
+  /* width: 100%; */
   max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
@@ -16384,7 +16384,7 @@ ul.nav.nav-tabs {
   justify-content: flex-start;
   align-items: flex-start;
   overflow: hidden;
-  gap: 38px;
+  gap: 50px;
   padding-inline: 20px;
 }
 .nav-tabs li {
@@ -16532,4 +16532,10 @@ left:unset;
    }
    .education-img {
     width: 520px;
+   }
+   .Company-Introduction h2{
+    font-size: 40px !important;
+   }
+   .btn-primary{
+    background-color: #203b52 !important;
    }
